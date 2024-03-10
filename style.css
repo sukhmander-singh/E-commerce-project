@@ -18,7 +18,7 @@
             margin-left: 7%;
         }
 
-
+        
 
 
 /* HEADER SECTION... */
@@ -447,12 +447,33 @@
 
 
 
+/* PROMOTIONAL BANNER */
+        .promotion-container {
+            width: 100%;
+            overflow: hidden;
+            padding: .5rem 0;
+            background-color: rgb(143, 197, 36);
+            color: white;
+        }    
+        .promotion-content {
+            width: 100%;
+            animation: promotionmov 25s linear infinite;
+            display: inline-block;
+            white-space: nowrap;
+        }    
+        @keyframes promotionmov {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-140%); }
+        }
+
+
+
 /* CATEGORIES SECTION... */
 
         .categories{
             width: 85%;
             height: 100%;
-            margin: 3rem auto;
+            margin: 1rem auto 3rem;
             display: grid;
             gap: 1rem;
             justify-content: center;
