@@ -151,7 +151,7 @@
             background-color: #dee6f0;
         }
         .login-container:hover{
-            background-color: rgb(108, 77, 232);
+            background-color: #86b823;
         }
         .login-container:hover .fa-regular.fa-circle-user{
             color: white;
