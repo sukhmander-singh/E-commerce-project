@@ -263,6 +263,10 @@
             color: rgb(132, 131, 131);
             background-color: rgb(246, 242, 242);
         }
+        .navlink:focus{
+            background-color: rgb(48, 48, 48);
+            color: white;
+        }
    
 /* MEDIA QUERIES FOR NAV... */
         @media (min-width: 639.95px) and (max-width: 800px){
@@ -452,7 +456,7 @@
             width: 100%;
             overflow: hidden;
             padding: .5rem 0;
-            background-color: rgb(8, 8, 8);
+            background-color: rgb(68, 162, 31);
             color: white;
         }    
         .promotion-content {
